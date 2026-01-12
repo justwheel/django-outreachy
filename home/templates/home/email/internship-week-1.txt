@@ -51,13 +51,9 @@ Week 1 tips:
 Week 1 Blog
 -----------
 
-During your internship, you're expected to blog every two weeks. Please take a look at our blog guidelines and blogging schedule:
+During your internship, you're expected to write three reports - initial, midpoint, and final.
 
-{{ request.scheme }}://{{ request.get_host }}{% url 'docs-internship' %}#blog
-
-The first blog topic is "Introduce yourself". Please read the blog prompt instructions:
-
-{{ request.scheme }}://{{ request.get_host }}{% url 'docs-internship' %}#blog-week-1
+In subsequent emails, we'll provide guidance on the reports.
 
 Questions?
 ---

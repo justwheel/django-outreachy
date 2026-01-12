@@ -2,9 +2,9 @@ Outreachy week 7: Assignments for mentors & interns
 
 Welcome to week seven of your Outreachy internship! Now is a good time to start thinking about your career path after the Outreachy internship.
 
-We have some goals and assignments for both mentors and interns. Please read the sections below.
+We have some goals for interns. Please read the sections below.
 
-Week 7 Theme
+Week 7 Focus
 ------------
 
 The theme for this week is "Career opportunities".
