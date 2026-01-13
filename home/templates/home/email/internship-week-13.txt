@@ -14,7 +14,7 @@ For Outreachy interns without an extension, this week is the last week of the in
 Goals for Mentors & Interns
 ---------------------------
 
-We know Outreachy interns learn and grow a lot during the internship! We encourage both you and your mentor to look at the blog post you made at the start of the internship about the ways you were struggling. How have you grown since the start of the internship? Then write a report reflecting on the ways you've grown and what skills you've learned.
+We know Outreachy interns learn and grow a lot during the internship! We encourage both you and your mentor to look at the blog post you made at the start of the internship about the ways you were struggling. How have you grown since the start of the internship? What have you accomplished? Then write a report reflecting on the ways you've grown and what skills you've learned.
 
 We'd like interns and mentors to take time this week to reflect on the internship together. We encourage both interns and mentors to provide feedback. Please provide each other with feedback on technical skills, communication skills, and mentoring skills.
 
