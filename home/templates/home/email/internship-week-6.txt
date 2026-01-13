@@ -2,12 +2,12 @@ Outreachy week 6: Assignments for mentors & interns
 
 Welcome to week six of your Outreachy internship! Interns without an internship extension are now half-way done with the internship.
 
-We have some goals and assignments for both mentors and interns. Please read the sections below.
+We have some goals for interns. Please read the sections below.
 
-Week 6 Theme
+Week 6 Focus
 ------------
 
-The theme for this week is "Modifying Expectations". Outreachy mentors and interns start the internship with a specific set of project goals. However, usually those goals need to be modified, and that's perfectly fine!
+Outreachy mentors and interns start the internship with a specific set of project goals. However, usually those goals need to be modified, and that's perfectly fine!
 
 Delays to projects happen. Maybe your project turned out to be more complicated than you or your mentor anticipated. Maybe you needed to learn some concepts before you could tackle project tasks. Maybe the community documentation wasn't up-to-date or was wrong. These are all perfectly valid reasons for projects to be a bit behind schedule, as long as you've been working full-time on the project.
 
@@ -19,7 +19,7 @@ Modifying your project timeline to set more realistic goals is a skill all contr
 
 {{ request.scheme }}://{{ request.get_host }}{% url 'project-timeline' round_slug=current_round.slug community_slug=community.slug project_slug=project.slug applicant_username=intern_selection.applicant.applicant.account.username %}
 
-Your goal for this week's blog post is to write a report about your progress on your project. Talk about what you accomplished so far. Talk about what goals too more time than expected. Talk about your modified goals for the second half of the internship.
+Your goal for this week's blog post is to write a mid-point report about your progress on your project. Talk about what you accomplished so far. Talk about what goals too more time than expected. Talk about your modified goals for the second half of the internship.
 
 See the detailed section below for more prompts.
 
@@ -32,17 +32,6 @@ This week, we want Outreachy mentors and interns to review the original project 
 
 Make adjustments to the project goals to ensure you'll complete them before your internship ends. Outreachy organizers view the internship as more like a fellowship. As long as an intern is working full-time on a project, Outreachy organizers consider this a success. Outreachy internships should not be extended to meet a particular project goal. Interns are not required to continue working on their project after their internship ends. Some Outreachy interns do continue working as volunteers on their project, but it's completely optional.
 
-Goals for Mentors
------------------
-
-Week 6 goals:
-
- - Review the original project timeline with your intern
- - Adjust future project goals if needed
- - Talk to your intern about a project where you needed to modify your goals or plans
- - Ask your intern which parts of the project took the most time
- - Think about how you would set more realistic goals for future intern projects
-
 Goals for Interns
 -----------------
 
@@ -50,15 +39,15 @@ Week 6 goals:
 
  - Review your original project timeline with your mentor
  - Adjust the project goals if needed
- - Write a blog post about the progress you've made in the first half of the internship
+ - Write a report about the progress you've made in the first half of the internship
  - Share in the chat one project goal that seemed easy, but took more time than you expected
 
-Week 6 Blog
+Week 6 Project Report
 -----------
 
-For this week's blog post, we'd like to write a progress report of what you've accomplished in the first half of the internship. The blog post should also detail what your modified goals for the second half of the internship is.
+For this week's report, we'd like to write a mid-point progress report of what you've accomplished in the first half of the internship. The blog post should also detail what your modified goals for the second half of the internship is.
 
-Here's some prompts that could get you started writing this blog post:
+Here's some prompts that could get you started writing this report:
 
  - What was your original internship project timeline?
  - What goals have you met?

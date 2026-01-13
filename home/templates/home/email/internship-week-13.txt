@@ -2,40 +2,25 @@ Outreachy week 13: Last assignments for mentors & interns
 
 Welcome to the last full week of your Outreachy internship! 🎉 We're so proud of you for making it this far! 💙
 
-We have some goals and assignments for both mentors and interns. Please read the sections below.
+We have goals for interns and mentors. Please read the sections below.
 
-Week 13 Theme
+Week 13 Focus
 -------------
 
-The theme for this week is "Internship wrap-up".
+The focus for this week is "Internship wrap-up".
 
 For Outreachy interns without an extension, this week is the last week of the internship. We hope this has been a rewarding experience for you!
 
 Goals for Mentors & Interns
 ---------------------------
 
-We know Outreachy interns learn and grow a lot during the internship! We encourage both you and your mentor to look at the blog post you made at the start of the internship about the ways you were struggling. How have you grown since the start of the internship? Then write a blog post reflecting on the ways you've grown and what skills you've learned.
+We know Outreachy interns learn and grow a lot during the internship! We encourage both you and your mentor to look at the blog post you made at the start of the internship about the ways you were struggling. How have you grown since the start of the internship? What have you accomplished? Then write a report reflecting on the ways you've grown and what skills you've learned.
 
 We'd like interns and mentors to take time this week to reflect on the internship together. We encourage both interns and mentors to provide feedback. Please provide each other with feedback on technical skills, communication skills, and mentoring skills.
 
 Interns should also talk with their mentors about ways they can stay involved in the open source or open science community. Please see the goals sections below for details.
 
 Outreachy organizers will be collecting final feedback from both interns and mentors. You will receive an email asking for final feedback sometime this week (unless your internship has been extended).
-
-Week 13 Mentor & Intern Chat
-----------------------------
-
-On {{ current_round.week_fourteen_chat_text_date }} UTC we will host a chat for Outreachy interns and mentors:
-
-{{ current_round.week_fourteen_wrapup_chat_url }}
-
-In this chat, we'll discuss how this internship has been for interns and mentors. Feel free to bring ideas of how Outreachy could improve, or leave comments in the private final feedback form.
-
-We'll also discuss how you can continue to be involved in Outreachy!
-
-There are lots of ways you can contribute after your internship ends: helping answer new applicants questions, welcoming new interns to the Zulip chat, sharing open source job opportunities you find, volunteering for the informal chats in a future internship cohort, helping co-mentor an Outreachy intern, and even becoming an Outreachy mentor yourself.
-
-This will be the last chat for this round! All interns are welcome to continue to hang out in the Zulip chat. You can continue talking with your mentor and future Outreachy internship cohorts.
 
 Goals for Mentors
 -----------------
@@ -66,12 +51,12 @@ Week 13 goals:
  - Sign up for the Outreachy opportunities mailing list
 
 
-Week 13 Blog
+Week 13 Report
 ------------
 
-For this week's blog post, we'd like you to write about how the Outreachy internship has been for you.
+For this week's report, we'd like you to write about how the Outreachy internship has been for you.
 
-Here's some prompts that could get you started writing this blog post:
+Here's some prompts that could get you started writing this report:
 
  - What was one fear you had about the internship that turned out to not come true?
  - What was one amazing thing that happened during the internship?
@@ -86,11 +71,11 @@ Here's some prompts that could get you started writing this blog post:
 Internship wrap-up social event
 ------------
 
-Before we finally officially draw the curtains for the December 2024 cohort, the Outreachy organizers are hosting a social hour event for interns, mentors, and coordinators.
+Before we finally officially draw the curtains for the December 2025 cohort, the Outreachy organizers are hosting a social hour event for interns, mentors, and coordinators.
 
 This event is good for networking, sharing your stories, and appreciating the people who helped you in your internship (mentors, fellow interns, community members). Prepare to attend, engage, connect, and learn from others.
 
-The social event will happen on Thursday, March 6, 2025, at 2:00 PM UTC.
+The social event will happen on Thursday, March 6, 2026, at 2:00 PM UTC.
 Venue: Big Blue Button (https://bbb.sfconservancy.org/b/sag-y6y-hcc-sww)
 
 We can’t wait to host and celebrate you.
