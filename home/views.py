@@ -3150,7 +3150,7 @@ def blog_2025_08_25_initial_applications_open(request):
          'current_round': current_round,
         })
 
-def blog_2026_02_13_initial_applications_open(request):
+def blog_2026_02_06_initial_applications_open(request):
     try:
         current_round = RoundPage.objects.get(
             internstarts__gte='2026-02-01',
@@ -3158,7 +3158,7 @@ def blog_2026_02_13_initial_applications_open(request):
         )
     except RoundPage.DoesNotExist:
         current_round = None
-    return render(request, 'home/blog/2026-02-13-initial-applications-open.html', {
+    return render(request, 'home/blog/2026-02-06-initial-applications-open.html', {
          'current_round': current_round,
         })
 

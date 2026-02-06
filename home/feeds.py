@@ -318,8 +318,8 @@ class WagtailFeed(Feed):
             title='Outreachy May 2026 internship applications open',
             full_url=reverse('2026-02-initial-applications-open'),
             owner=author,
-            first_published_at=pacific.localize(datetime.datetime(2026, 2, 13, 16, 00, 0)),
-            last_published_at=pacific.localize(datetime.datetime(2026, 2, 13, 16, 00, 0)),
+            first_published_at=pacific.localize(datetime.datetime(2026, 2, 6, 16, 00, 0)),
+            last_published_at=pacific.localize(datetime.datetime(2026, 2, 6, 16, 00, 0)),
         ))
 
         # put the Wagtail pages and special posts together in the right order
