@@ -3150,6 +3150,30 @@ def blog_2025_08_25_initial_applications_open(request):
          'current_round': current_round,
         })
 
+def blog_2026_02_06_initial_applications_open(request):
+    try:
+        current_round = RoundPage.objects.get(
+            internstarts__gte='2026-02-01',
+            internends__lte='2026-09-01',
+        )
+    except RoundPage.DoesNotExist:
+        current_round = None
+    return render(request, 'home/blog/2026-02-06-initial-applications-open.html', {
+         'current_round': current_round,
+        })
+
+def blog_2026_02_06_cfp_open(request):
+    try:
+        current_round = RoundPage.objects.get(
+            internstarts__gte='2026-02-01',
+            internends__lte='2026-09-01',
+        )
+    except RoundPage.DoesNotExist:
+        current_round = None
+    return render(request, 'home/blog/2026-02-06-community-cfp-open.html', {
+         'current_round': current_round,
+        })
+
 class InitialMentorFeedbackUpdate(LoginRequiredMixin, reversion.views.RevisionMixin, UpdateView):
     form_class = modelform_factory(Feedback1FromMentor,
             fields=(
