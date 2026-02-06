@@ -181,5 +181,7 @@ urlpatterns = [
     re_path(r'^blog/2025-01-27/june-2025-initial-applications-open/$', views.blog_2025_01_27_initial_applications_open, name='2025-01-initial-applications-open'),
     re_path(r'^blog/2025-08-14/december-2025-call-for-mentoring-organizations/$', views.blog_2025_08_cfp_open, name='2025-08-cfp-open'),
     re_path(r'^blog/2025-08-25/december-2025-initial-applications-open/$', views.blog_2025_08_25_initial_applications_open, name='2025-08-25-initial-applications-open'),
+    re_path(r'^blog/2026-02-06/may-2026-call-for-mentoring-organizations/$', views.blog_2026_02_06_cfp_open, name='2026-02-cfp-open'),
+    re_path(r'^blog/2026-02-13/may-2026-initial-applications-open/$', views.blog_2026_02_13_initial_applications_open, name='2026-02-initial-applications-open'),
     re_path(r'^privacy-policy/$', views.privacy_policy, name='privacy-policy'),
 ]
