@@ -6,7 +6,17 @@ Hi folks,
 
 Outreachy's call for mentoring communities is now open. Will {{ community.name }} be able to participate in the {{ current_round.internstarts|date:"F Y" }} internship cohort?
 
-We also wanted to let communities know some bad news -- donations to Outreachy have been greatly reduced in the past two years. Unfortunately, we may have to reduce Outreachy program activities unless we find additional funding.
+Due to decreased donations and grant funding, we are not able to fund internships out of Outreachy’s general activities fund. Communities will need to secure funding of at least $8000 for one intern.
+
+Because of our financial situation, we’ve had t0 make some changes to the program:
+
+  - We’ve simplified internship activities — interns will now submit three project reports instead of multiple blog posts
+  - Biweekly text chats have been replaced with three live video social hours
+  - Additionally, mentors can now set a policy on generative AI contributions in their project description
+
+Please read our blog post for full details on our funding situation and the changes we've made: 
+
+https://www.outreachy.org/blog/2025-08-14/december-2025-call-for-mentoring-organizations/
 
 Do you have a contact at any companies or grant makers that might be interested in sponsoring Outreachy program activities? While we often find sponsors who want to donate towards internships with specific FOSS communities, it is harder to find sponsors who are willing to donate towards the labor-intensive work of running Outreachy. Let us know if you have any sponsorship leads.
 
@@ -14,14 +24,10 @@ I also wondered if your community might be willing to donate an additional amoun
 
 I hope we can work together to ensure a future for Outreachy -- a future where people who face discrimination and systemic bias become open source leaders.
 
-Let us know if you have ideas for potential Outreachy sponsors, or other opportunities to fund Outreachy program activities.
+Let us know if you have ideas for potential Outreachy sponsors or other opportunities to fund Outreachy program activities. 
 
 Important dates
 ---
-
-On February 5, 2025 at 3pm UTC Outreachy will host a Q&A chat to answer mentor questions:
-
-https://www.youtube.com/watch?v=PiOm6nqzTVQ
 
 {{ current_round.lateorgs }} at 4pm UTC is the deadline for communities to sign up to participate.
 
@@ -38,22 +44,6 @@ Inspiration for new mentors
 If you want to inspire someone to be an Outreachy mentor, you can send them this 3 minute video with a past Outreachy intern who became a mentor:
 
 https://www.youtube.com/watch?v=xUTks1gFrIs
-
-Every internship cohort, Outreachy has a live-streamed Q&A chat to inspire people to become Outreachy mentors.
-
-On February 5, 2025 at 15:00 UTC Outreachy will host a Q&A chat for prospective mentors will be on 
-
-https://www.youtube.com/watch?v=PiOm6nqzTVQ
-
-People can ask our mentor panel questions via YouTube live chat. Questions can also be asked on social medial. Please be sure to tag Outreachy on Mastodon, and use the hashtag #OutreachyChat
-
-Recordings of past Outreachy mentor chats are available on both YouTube and PeerTube:
-
-YouTube: https://www.youtube.com/@outreachyinternships
-PeerTube: https://diode.zone/a/outreachy/video-channels
-
-Mastodon: https://hachyderm.io/@outreachy
-
 
 Community participation
 ---
