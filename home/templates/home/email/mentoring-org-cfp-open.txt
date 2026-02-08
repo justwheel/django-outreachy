@@ -8,7 +8,7 @@ Outreachy's call for mentoring communities is now open. Will {{ community.name }
 
 Due to decreased donations and grant funding, we are not able to fund internships out of Outreachy’s general activities fund. Communities will need to secure funding of at least $8000 for one intern.
 
-Because of our financial situation, we’ve had t0 make some changes to the program:
+Because of our financial situation, we made the following changes to the program:
 
   - We’ve simplified internship activities — interns will now submit three project reports instead of multiple blog posts
   - Biweekly text chats have been replaced with three live video social hours
