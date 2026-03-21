@@ -142,14 +142,14 @@ class StatisticsCollectionTestCase(TestCase):
                         internship_round=current_round)
 
 
-                self.assertEquals(0, stats.total_transgender_people)
-                self.assertEquals(0, stats.total_genderqueer_people)
-                self.assertEquals(0, stats.total_men)
-                self.assertEquals(0, stats.total_trans_masculine_people)
-                self.assertEquals(0, stats.total_women)
-                self.assertEquals(0, stats.total_trans_feminine_people)
-                self.assertEquals(counted_non_binary_people + 1, stats.total_non_binary_people)
-                self.assertEquals(0, stats.total_who_self_identified_gender)
+                self.assertEqual(0, stats.total_transgender_people)
+                self.assertEqual(0, stats.total_genderqueer_people)
+                self.assertEqual(0, stats.total_men)
+                self.assertEqual(0, stats.total_trans_masculine_people)
+                self.assertEqual(0, stats.total_women)
+                self.assertEqual(0, stats.total_trans_feminine_people)
+                self.assertEqual(counted_non_binary_people + 1, stats.total_non_binary_people)
+                self.assertEqual(0, stats.total_who_self_identified_gender)
 
     def test_collection_of_statistics_for_non_binary_applicant(self):
         """
@@ -181,13 +181,13 @@ class StatisticsCollectionTestCase(TestCase):
         stats = models.StatisticGenderDemographics.objects.get(
                 internship_round=current_round)
 
-        self.assertEquals(0, stats.total_transgender_people)
-        self.assertEquals(1, stats.total_genderqueer_people)
-        self.assertEquals(1, stats.total_men)
-        self.assertEquals(0, stats.total_trans_masculine_people)
-        self.assertEquals(0, stats.total_women)
-        self.assertEquals(0, stats.total_trans_feminine_people)
-        self.assertEquals(1, stats.total_non_binary_people)
+        self.assertEqual(0, stats.total_transgender_people)
+        self.assertEqual(1, stats.total_genderqueer_people)
+        self.assertEqual(1, stats.total_men)
+        self.assertEqual(0, stats.total_trans_masculine_people)
+        self.assertEqual(0, stats.total_women)
+        self.assertEqual(0, stats.total_trans_feminine_people)
+        self.assertEqual(1, stats.total_non_binary_people)
 
     def test_collection_of_statistics_for_transgender_woman_applicant(self):
         """
@@ -217,14 +217,14 @@ class StatisticsCollectionTestCase(TestCase):
         stats = models.StatisticGenderDemographics.objects.get(
                 internship_round=current_round)
 
-        self.assertEquals(1, stats.total_transgender_people)
-        self.assertEquals(0, stats.total_genderqueer_people)
-        self.assertEquals(0, stats.total_men)
-        self.assertEquals(0, stats.total_trans_masculine_people)
-        self.assertEquals(1, stats.total_women)
-        self.assertEquals(0, stats.total_trans_feminine_people)
-        self.assertEquals(0, stats.total_non_binary_people)
-        self.assertEquals(0, stats.total_who_self_identified_gender)
+        self.assertEqual(1, stats.total_transgender_people)
+        self.assertEqual(0, stats.total_genderqueer_people)
+        self.assertEqual(0, stats.total_men)
+        self.assertEqual(0, stats.total_trans_masculine_people)
+        self.assertEqual(1, stats.total_women)
+        self.assertEqual(0, stats.total_trans_feminine_people)
+        self.assertEqual(0, stats.total_non_binary_people)
+        self.assertEqual(0, stats.total_who_self_identified_gender)
 
     def test_collection_of_statistics_for_trans_masculine_agender_person(self):
         """
@@ -254,14 +254,14 @@ class StatisticsCollectionTestCase(TestCase):
         stats = models.StatisticGenderDemographics.objects.get(
                 internship_round=current_round)
 
-        self.assertEquals(1, stats.total_transgender_people)
-        self.assertEquals(0, stats.total_genderqueer_people)
-        self.assertEquals(0, stats.total_men)
-        self.assertEquals(1, stats.total_trans_masculine_people)
-        self.assertEquals(0, stats.total_women)
-        self.assertEquals(0, stats.total_trans_feminine_people)
-        self.assertEquals(1, stats.total_non_binary_people)
-        self.assertEquals(0, stats.total_who_self_identified_gender)
+        self.assertEqual(1, stats.total_transgender_people)
+        self.assertEqual(0, stats.total_genderqueer_people)
+        self.assertEqual(0, stats.total_men)
+        self.assertEqual(1, stats.total_trans_masculine_people)
+        self.assertEqual(0, stats.total_women)
+        self.assertEqual(0, stats.total_trans_feminine_people)
+        self.assertEqual(1, stats.total_non_binary_people)
+        self.assertEqual(0, stats.total_who_self_identified_gender)
 
     def test_collection_of_statistics_for_trans_feminine_mavrique(self):
         """
@@ -291,14 +291,14 @@ class StatisticsCollectionTestCase(TestCase):
         stats = models.StatisticGenderDemographics.objects.get(
                 internship_round=current_round)
 
-        self.assertEquals(1, stats.total_transgender_people)
-        self.assertEquals(0, stats.total_genderqueer_people)
-        self.assertEquals(0, stats.total_men)
-        self.assertEquals(0, stats.total_trans_masculine_people)
-        self.assertEquals(0, stats.total_women)
-        self.assertEquals(1, stats.total_trans_feminine_people)
-        self.assertEquals(1, stats.total_non_binary_people)
-        self.assertEquals(0, stats.total_who_self_identified_gender)
+        self.assertEqual(1, stats.total_transgender_people)
+        self.assertEqual(0, stats.total_genderqueer_people)
+        self.assertEqual(0, stats.total_men)
+        self.assertEqual(0, stats.total_trans_masculine_people)
+        self.assertEqual(0, stats.total_women)
+        self.assertEqual(1, stats.total_trans_feminine_people)
+        self.assertEqual(1, stats.total_non_binary_people)
+        self.assertEqual(0, stats.total_who_self_identified_gender)
 
     def test_collection_of_statistics_twice(self):
         """
@@ -336,26 +336,26 @@ class StatisticsCollectionTestCase(TestCase):
         stats = models.StatisticGenderDemographics.objects.get(
                 internship_round=current_round)
 
-        self.assertEquals(1, stats.total_transgender_people)
-        self.assertEquals(0, stats.total_genderqueer_people)
-        self.assertEquals(0, stats.total_men)
-        self.assertEquals(0, stats.total_trans_masculine_people)
-        self.assertEquals(1, stats.total_women)
-        self.assertEquals(1, stats.total_trans_feminine_people)
-        self.assertEquals(0, stats.total_non_binary_people)
-        self.assertEquals(0, stats.total_who_self_identified_gender)
+        self.assertEqual(1, stats.total_transgender_people)
+        self.assertEqual(0, stats.total_genderqueer_people)
+        self.assertEqual(0, stats.total_men)
+        self.assertEqual(0, stats.total_trans_masculine_people)
+        self.assertEqual(1, stats.total_women)
+        self.assertEqual(1, stats.total_trans_feminine_people)
+        self.assertEqual(0, stats.total_non_binary_people)
+        self.assertEqual(0, stats.total_who_self_identified_gender)
 
         stats = models.StatisticTotalApplied.objects.get(
                 internship_round=current_round)
 
-        self.assertEquals(1, stats.total_applicants)
+        self.assertEqual(1, stats.total_applicants)
         # This person was approved and then rejected,
         # but we only collect statistics the first time,
         # so they will count as "approved"
-        self.assertEquals(1, stats.total_approved)
-        self.assertEquals(0, stats.total_pending)
-        self.assertEquals(0, stats.total_rejected)
-        self.assertEquals(0, stats.total_withdrawn)
+        self.assertEqual(1, stats.total_approved)
+        self.assertEqual(0, stats.total_pending)
+        self.assertEqual(0, stats.total_rejected)
+        self.assertEqual(0, stats.total_withdrawn)
 
     def test_collection_of_statistics_for_applicant_who_is_not_american_citizen(self):
         """
@@ -423,8 +423,8 @@ class StatisticsCollectionTestCase(TestCase):
         except:
             self.assertFalse(True)
 
-        self.assertEquals(1, stats.total_approved_american_applicants)
-        self.assertEquals(0, stats.total_approved_american_bipoc)
+        self.assertEqual(1, stats.total_approved_american_applicants)
+        self.assertEqual(0, stats.total_approved_american_bipoc)
 
     def test_collection_of_statistics_for_american_applicant_who_is_bipoc(self):
         """
@@ -455,8 +455,8 @@ class StatisticsCollectionTestCase(TestCase):
         except:
             self.assertFalse(True)
 
-        self.assertEquals(1, stats.total_approved_american_applicants)
-        self.assertEquals(1, stats.total_approved_american_bipoc)
+        self.assertEqual(1, stats.total_approved_american_applicants)
+        self.assertEqual(1, stats.total_approved_american_bipoc)
 
     def test_collection_of_statistics_for_one_country(self):
         """
