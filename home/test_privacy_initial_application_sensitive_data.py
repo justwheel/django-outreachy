@@ -203,7 +203,7 @@ class InitialApplicationPrivacyTestCase(TestCase):
         except models.BarriersToParticipation.DoesNotExist:
             pass
 
-        self.assertEquals(models.InitialApplicationReview.objects.filter(application=applicant_approval).count(), 0)
+        self.assertEqual(models.InitialApplicationReview.objects.filter(application=applicant_approval).count(), 0)
 
     def test_initial_applications_objects_not_under_revision_control(self):
         for model in (models.ApplicantApproval, models.BarriersToParticipation, models.ApplicantGenderIdentity, models.ApplicantRaceEthnicityInformation, models.SchoolInformation):
