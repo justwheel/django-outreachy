@@ -26,7 +26,7 @@ raven = "*"
 wagtail = "~=5.0"
 whitenoise = "*"
 factory_boy = "*"
-setuptools = "*"
+setuptools = "<81"
 django-betterforms = {git = "https://github.com/jpic/django-betterforms.git"}
 
 [dev-packages]
